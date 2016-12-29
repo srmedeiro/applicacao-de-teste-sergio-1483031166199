@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: applicacao-de-teste-sergio
+  host: applicacao-de-teste-sergio
+  disk_quota: 1024M
+  services:
+  - applicacao-de-teste-sergio-AdvancedMobileAccess
+  - applicacao-de-teste-sergio-imfpush
+  - applicacao-de-teste-sergio-cloudantNoSQLDB
